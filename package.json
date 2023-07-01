@@ -1,0 +1,15 @@
+{
+  "name": "npm-init-jaehoon",
+  "version": "1.0.0",
+  "description": "It's my friend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Woosung",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
