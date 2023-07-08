@@ -3,7 +3,7 @@ let prompt = require('prompt-sync')();
 const basic = ["가위", "바위", "보"];
 let choose = "";
 
-while (choose != "종료") {
+while (choose !== "종료") {
     let generator = Math.floor((Math.random() * 3));
     generator = basic[generator]
 
